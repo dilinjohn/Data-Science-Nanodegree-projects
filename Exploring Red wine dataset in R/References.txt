@@ -1,0 +1,4 @@
+#Reference: 
+https://stats.stackexchange.com/questions/175999/determine-outliers-using-iqr-or-standard-deviation
+https://cran.r-project.org/web/packages/memisc/memisc.pdf
+https://www.datacamp.com/community/tutorials/functions-in-r-a-tutorial

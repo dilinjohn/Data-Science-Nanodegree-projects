@@ -1,4 +1,4 @@
-Exlporing the red wine dataset in R by Dilin John
+Analysis of red wine by Dilin John
 ========================================================
 
 Load all of the packages that you end up using in your analysis in this code
