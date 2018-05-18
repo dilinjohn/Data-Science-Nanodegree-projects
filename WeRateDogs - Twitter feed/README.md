@@ -5,6 +5,7 @@ In this project, I be using Tweepy to query Twitter's API for additional data be
 
 Tweet data is stored in JSON format by Twitter. The Twitter API is one that requires users to be authorized to use it, which involves setting up of some auth tokens which are described as below to create API object.
 
+"
 import tweepy
 
 consumer_key = 'YOUR CONSUMER KEY'
@@ -16,10 +17,12 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 
 api = tweepy.API(auth)
+"
 
 * Twitters rate limits are set to 15 minutes so as to limit the number of API calls to their servers
 
 There are a couple of file created
+----------------------------------
 
 1) twitter_archive_enhanced.csv - This is the WeRateDogs Twitter archive
 2) tweet_json.txt - this stores the JSON data into a text file for the corresponding tweet id in the twitter archive.
