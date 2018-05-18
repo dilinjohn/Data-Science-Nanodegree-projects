@@ -27,6 +27,6 @@ There are a couple of file created
 1) twitter_archive_enhanced.csv - This is the WeRateDogs Twitter archive
 2) tweet_json.txt - this stores the JSON data into a text file for the corresponding tweet id in the twitter archive.
 3) image_predictions.tsv - The tweet image predictions, i.e., what breed of dog (or other object, animal, etc.) is present in each tweet according to a neural network. This data is downloaded using the 'Requests' library, following a URL hosted on Udacity servers
-4) df_master.csv - this is the final .csv file that contains the cleaned data, which will be used for final analysis and projection
+4) df_master.csv - this is the final .csv file that contains the cleaned data, which will be used for final analysis
 5) Wrange&analyze_twitter_data.ipynb - the Ipython notebook for EDA, data wrangling, asssesment and visualization, conclusions
 6) wrangle_report.ipynb - Summary report
