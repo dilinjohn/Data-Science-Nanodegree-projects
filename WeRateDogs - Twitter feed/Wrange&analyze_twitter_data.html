@@ -11849,10 +11849,10 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Keys for twitter app</span>
-<span class="n">consumer_key</span> <span class="o">=</span> <span class="s1">&#39;PAjegZIdIw9FqsbjiBiB32Me8&#39;</span>
-<span class="n">consumer_secret</span> <span class="o">=</span> <span class="s1">&#39;PVGym2PO42wBEPELVLocH9sltQ2kYg3NdwcFEUodSAtTMlyQhv&#39;</span>
-<span class="n">access_token</span> <span class="o">=</span> <span class="s1">&#39;984782607375155200-j3SIS7VVW0mM1I3SJPGuRSfkK5EBpn3&#39;</span>
-<span class="n">access_token_secret</span> <span class="o">=</span> <span class="s1">&#39;mcOjYsvq2Tw1QBXBdWUkIbys69kbzWgKF73i4bJ4kaQ9W&#39;</span>
+<span class="n">consumer_key</span> <span class="o">=</span> <span class="s1">&#39;'##################'&#39;</span>
+<span class="n">consumer_secret</span> <span class="o">=</span> <span class="s1">&#39;P'##################'&#39;</span>
+<span class="n">access_token</span> <span class="o">=</span> <span class="s1">&#39;'##################'&#39;</span>
+<span class="n">access_token_secret</span> <span class="o">=</span> <span class="s1">&#39;'##################'&#39;</span>
 </pre></div>
 
 </div>
@@ -11866,7 +11866,8 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Variables created for tweepy query</span>
-<span class="n">auth</span> <span class="o">=</span> <span class="n">tweepy</span><span class="o">.</span><span class="n">OAuthHandler</span><span class="p">(</span><span class="n">consumer_key</span><span class="p">,</span> <span class="n">consumer_secret</span><span class="p">)</span>
+<span class="n">auth</span> <span class="o">=</span> <span class="n">tweepy</span><span class="o">.</span><span class="n">OAuthHandler</span><span class="p">(</span><span class="n">
+_key</span><span class="p">,</span> <span class="n">consumer_secret</span><span class="p">)</span>
 <span class="n">auth</span><span class="o">.</span><span class="n">set_access_token</span><span class="p">(</span><span class="n">access_token</span><span class="p">,</span> <span class="n">access_token_secret</span><span class="p">)</span>
 <span class="n">api</span> <span class="o">=</span> <span class="n">tweepy</span><span class="o">.</span><span class="n">API</span><span class="p">(</span><span class="n">auth</span><span class="p">,</span>
                  <span class="n">wait_on_rate_limit</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="c1"># automatically wait for rate limits to replenish</span>
